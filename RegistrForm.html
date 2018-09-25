@@ -2,9 +2,85 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="css_styles/css1.css">
 </head>
-<body>
-$END$
+<body id="bR">  <!--style="background-image: url(https://st.depositphotos.com/2101611/3545/i/950/depositphotos_35457131-stock-photo-blue-wood-background.jpg);
+             background-repeat: repeat;background-size: 100%; background-attachment: fixed*/-->
+
+<form id="registrF" action="#" method="post">
+    <fieldset>
+    <legend class="sh" align="center"> Регистрация: </legend>
+        <fieldset style="background-color: #b3d4fc">
+            <div>
+                <legend class="sh" align="center"> Личные данные: </legend>
+            <input class="inpData" type="text" minlength="1"
+                   maxlength="25" required placeholder=" Имя">
+        </div>
+        <br>
+        <div>
+            <input class="inpData" type="text" minlength="1"
+                   maxlength="30" required placeholder="  Фамилия">
+        </div>
+        <br>
+            <div>
+                <input class="inpData" type="date">
+                <p class="podsk">
+                    Мы поздравим вас с Днем Рождения! :)
+                </p>
+            </div>
+        </fieldset>
+    <br>
+        <fieldset style="background-color: #b3d4fc">
+        <div>
+            <legend class="sh" align="center"> Контакты: </legend>
+            <input class="inpData" required type="email" placeholder="  E-mail">
+            <p class="podsk">
+                На e-mail вы будете получать информацию об самых горячих новостях
+            </p>
+        </div>
+            <div>
+                <input class="inpData" type="text" placeholder="Ваш телефон" value="  +7 ">
+                <p class="podsk">
+                    Для безопасности Вашего аккаунта
+                </p>
+            </div>
+        </fieldset>
+        <br>
+
+        <fieldset style="background-color: #b3d4fc">
+        <div>
+            <legend class="sh" align="center"> Придумайте логин и пароль: </legend>
+             <input class="inpData" type="text" minlength="1"
+                    maxlength="25" placeholder=" Логин">
+        </div>
+            <br>
+        <div>
+            <input class="inpData" required type="password" placeholder="  Пароль">
+        </div>
+        <br>
+        <div>
+            <input class="inpData" required type="password" placeholder="  Пароль еще раз">
+        </div>
+        <br>
+            <p class="sh"> Я согласен получать новости по
+                <label><input checked name="smth" type="checkbox">SMS</label>
+                <label><input checked name="smth" type="checkbox">E-mail</label>
+            </p>
+            <p class="podsk">
+                <label><input name="smth" type="checkbox"></label>
+                Я даю согласие на обработку и хранение моих персональных данных
+            </p>
+        <div align="center">
+            <label class="sh">
+                <input type="button" class="but" style="background-color: lightcoral" value="Зарегистрироваться">
+            </label>
+        </div>
+
+
+        </fieldset>
+    </fieldset>
+</form>
+
 </body>
 </html>

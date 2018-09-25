@@ -2,9 +2,101 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="css_styles/css1.css">
+    <!--<img src="pics/обложкаНС.jpg" width="100%" height="5%">-->
 </head>
-<body>
-$END$
+<body id="aC">  <!--style="background-image: url(https://st.depositphotos.com/2101611/3545/i/950/depositphotos_35457131-stock-photo-blue-wood-background.jpg);
+             background-repeat: repeat;background-size: 100%; background-attachment: fixed*/-->
+
+<form id="anketaC" action="#" method="post">
+    <fieldset>
+        <legend class="ankLeg" > Анкета кандидата в хоккеисты СХЛ СПб: </legend>
+        <fieldset style="background-image: linear-gradient(to top, whitesmoke, powderblue)">
+            <div>
+                <!--<legend class="sh" align="center"> Личные данные: </legend>-->
+                <input class="inpDataA" type="text" minlength="1"
+                       maxlength="100" required placeholder=" ФИО">
+            </div>
+            <br>
+            <div>
+                <label class="sh">Дата рождения </label>
+                <input type="date" class="inpDataDate"
+                       min="1994-01-01" max="2001-12-31"
+                       value="1994-01-01">
+                <p class="podsk">
+                    (должна попадать в промежуток 01.01.1994 - 31.12.2001)
+                </p>
+            </div>
+
+        <br>
+            <div>
+              <!--  <legend class="sh" align="center"> Контакты: </legend>-->
+                <label class="sh">Вы являетесь студентом ВУЗа? </label>
+                <label class="sh"><input name="y" type="radio"> Да </label>
+                <label class="sh"><input name="y" type="radio"> Нет (см. следующий вопрос) </label>
+            </div>
+            <br>
+            <div>
+                <label class="sh"> Где вы обучаетесь (название учебного заведения)? </label>
+                <input class="inpDataA" type="text" required minlength="1">
+            </div>
+
+        <br>
+            <div>
+            <label class="sh"> Опыт игры в хоккей </label>
+                <select class="inpDataDate">
+                    <optgroup >
+                        <option value="1" class="sh"> Любитель</option>
+                        <option value="2" class="sh"> Закончил СДЮСШОР</option>
+                        <option value="3" class="sh"> Играл в МХЛ, КХЛ и тд</option>
+                        <option value="4" class="sh"> Не играл</option>
+                        <option value="5" class="sh">item 5</option>
+                    </optgroup>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label class="sh"> Амплуа </label>
+                <select class="inpDataDate">
+                    <optgroup >
+                        <option value="1" class="sh"> Нападающий</option>
+                        <option value="2" class="sh"> Защитник</option>
+                        <option value="3" class="sh"> Вратарь</option>
+                    </optgroup>
+                </select>
+            </div>
+            <br>
+            <label for="textarea" class="sh"> Почему хотите играть в студенческой команде? :)</label>
+            <div>
+            <textarea id="textarea" class="inpData"
+                      style="font-family: 'Times New Roman'"></textarea>
+            </div>
+        </fieldset>
+
+        <fieldset style="background-image: linear-gradient(to top, whitesmoke, powderblue)">
+            <div>
+                <legend class="sh" align="center"> Контакты для связи: </legend>
+                <input class="inpDataA" required type="url" placeholder="  Ссылка на аккаунт в соцсетях">
+            </div>
+            <div>
+                <input class="inpDataA" type="text" placeholder="Ваш телефон" value="  +7 ">
+            </div>
+            <br>
+            <p class="podsk">
+                <label><input name="smth" type="checkbox" required></label>
+                Я даю согласие на обработку и хранение моих персональных данных
+            </p>
+            <div align="center">
+                <label class="sh">
+                    <input type="button" class="but" style="background-color: lightcoral" value="Зарегистрироваться">
+                </label>
+            </div>
+
+
+        </fieldset>
+    </fieldset>
+</form>
+
 </body>
 </html>
