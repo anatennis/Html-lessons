@@ -1,0 +1,51 @@
+@import url(grid.css);
+
+.bckgrd {
+    background-image: url(../pics/catsb.jpg);
+    background-repeat: repeat;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+
+}
+
+.img-item {
+    background: lightsteelblue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.img-item img {
+    width: 100%;
+}
+
+.img-item p {
+    text-align: center;
+}
+
+.text-it {
+    background: floralwhite;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: justify;
+    column-count: 2;
+    box-sizing: border-box;
+    /*font-family: "Arial Narrow";
+    height: 50%;*/
+}
+
+
+.text {
+    column-count: 2;
+    text-align: justify;
+    /*column-gap: 20px;*/
+    column-rule: 1px solid #ccc;
+}
+
+.zagolovok {
+
+}
