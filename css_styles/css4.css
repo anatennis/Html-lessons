@@ -1,0 +1,46 @@
+
+.background {
+    background: papayawhip;
+    border-radius: 10px;
+}
+
+.border {
+    border: 1px solid pink;
+    box-sizing: border-box;
+}
+
+.margint {
+    margin-top: -32%;
+}
+
+.height100 {
+    height: 100%;
+}
+
+.height50 {
+    height: 50%;
+}
+
+.padding {
+    padding: 30px;
+}
+
+.paddingl {
+    padding-left: 4px;
+}
+
+.paddingimg {
+    padding: 25px;
+}
+
+.padding10 {
+    padding: 10px;
+}
+
+.width90 {
+    width: 90%;
+}
+
+.width50 {
+    width: 50%;
+}

@@ -1,0 +1,51 @@
+.container {
+    height: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.border {
+    border: 1px solid #333;
+    box-sizing: border-box;
+}
+
+.row-container {
+    display: flex;
+}
+
+.column-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-2 {
+    flex: 2;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.height {
+    height: 300px;
+}
+
+.gray {
+    background: lightgrey;
+}
+
+.darkgray {
+    background: gray;
+}
+
+.padding {
+    padding: 8px;
+}
+
+.margin {
+    margin: 5px;
+}
+
+/*селектор:hover {*/
+
+/*}*/

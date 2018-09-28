@@ -47,5 +47,8 @@
 }
 
 .zagolovok {
-
+    background: lightcoral;
+    text-align: center;
+    border-radius: 10px;
+    box-sizing: border-box;
 }
