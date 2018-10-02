@@ -91,6 +91,46 @@ a {
     /*margin: 10% 0;*/
 }
 
+#auth {
+    border-style: double;
+    border-color: darkblue;
+    border-radius: 10px;
+    background-image: linear-gradient(to top, white, lightblue);
+    position: fixed;
+    z-index: 100;
+    opacity: 0;
+    pointer-events: none;
+    display: none;
+    margin-top: 10%;
+    margin-left: 39%;
+}
+
+#auth:target {
+    opacity: 100;
+    pointer-events: auto;
+    overflow: auto;
+    display: inline-block;
+}
+
+.sh {
+    font-variant: petite-caps;
+    font-family: "Arial Narrow";
+}
+
+
+.openRF {
+    background-color: teal;
+    font-size: medium;
+    font-style: normal;
+    font-family: "Arial Narrow";
+    color: white;
+    border-radius: 3px;
+    border: hidden;
+    width: 150px;
+    height: 30px;
+
+}
+
 .mmenu {
     display: none;
 }

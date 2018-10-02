@@ -7,6 +7,36 @@
 </head>
 <body>
 
+<form id="auth" action="#" method="post" >
+    <fieldset>
+        <legend> <h3 align="center"> Авторизация: </h3></legend>
+        <div>
+            <label for="email" class="sh"> Логин: </label>
+            <input id="email" type="email" placeholder="E-mail" autofocus>
+        </div>
+        <br>
+        <br>
+        <div>
+            <label for="pwd" class="sh"> Пароль: </label>
+            <input id="pwd" type="password" placeholder="Пароль">
+        </div>
+        <label>
+            <input type="checkbox"> Запомнить меня
+        </label>
+        <br>
+        <fieldset>
+            <div align="center">
+                <label class="sh">
+                    <a href="#registrFclose"> <input type="button" class="but" value="Войти"></a>
+                </label>
+                <br>
+                <a href="#"> Забыли пароль? </a>
+            </div>
+        </fieldset>
+
+    </fieldset>
+</form>
+
 <div class="container column-container">
 
     <div class="row-container hbackground">
@@ -23,6 +53,7 @@
                 <li><a href="#"> Команды </a></li>
                 <li><a href="#"> Стадионы </a></li>
                 <li><a href="#"> Хоккеисты </a></li>
+                <li><a href="#auth"><input type="button" class="openRF" value="Авторизоваться"></a></li>
             </ul>
             </div>
 
