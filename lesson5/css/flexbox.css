@@ -52,6 +52,14 @@
     /*flex-flow: row wrap;*/
 }
 
+.flex-wrap {
+
+       /*flex-wrap: nowrap;*/
+    flex-wrap: wrap;
+
+}
+
+
 .flex-container5 {
     display: flex;
     background: bisque;

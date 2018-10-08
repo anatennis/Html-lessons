@@ -37,6 +37,8 @@
     </fieldset>
 </form>
 
+
+
 <div class="container column-container">
 
     <div class="row-container hbackground">
@@ -45,34 +47,59 @@
         </div>
         <div class="column-container flex-5">
             <div class="flex-container2 flex-1">
-                <h1 class="shl padding" style="margin-left: 3%">Студенческая хоккейная лига Санкт-Петербурга</h1>
+                <h1 class="shl padding" style="margin-left: 3%">Saint-petersburg student hockey league</h1>
             </div>
-            <div class="flex-container2 flex-1 hidden">
-            <ul class="flex-container2">
+            <div class="flex-container2 flex-1 hiddenmenu">
+            <ul class="flex-container2 menu">
                 <li><a href="#"> Турниры </a></li>
-                <li><a href="#"> Команды </a></li>
+                <li><a href="#"> Команды </a>
+                    <ul class="submenu">
+                        <li><a href="team-page-l.html"> Лисы СПбГАСУ</a></li>
+                        <li>Волки ЛТУ</li>
+                        <li>Барсы ИТМО</li>
+                    </ul>
+                </li>
                 <li><a href="#"> Стадионы </a></li>
                 <li><a href="#"> Хоккеисты </a></li>
-                <li><a href="#auth"><input type="button" class="openRF" value="Авторизоваться"></a></li>
+               <!-- <li><a href="#auth"><input type="button" class="openRF" value="Авторизация"></a></li>     Авторизация-->
             </ul>
             </div>
 
-            <!--<div class="flex-5 flex-end mmenu">
-                <img src="pics/menu-icon.png" class="menu">
-            </div>-->
         </div>
 
     </div>
 
-    <div class="flex-2 hbackground row-container marginlarge">
+    <div class=" emptyl">
+        <p class="shl padding xsvisible">News</p>
 
-        <div class="border row-container flex-container4 flex-2">
+        <ul class="flex-container2 menu  xsinvisible">
+            <li><a href="#"> Меню </a>
+                <ul class="submenu">
+                    <li>Турниры</li>
+                    <li>Команды</li>
+                    <li>Стадионы</li>
+                    <li>Хоккеисты</li>
+                </ul>
+            </li>
+        </ul>
+
+    </div>
+    </div>
+
+    <div class="flex-2 lnbackground row-container marginlarge">
+
+
+        <div class="row-container flex-container4 flex-3">                    <!--!!!граница-->
+            <div class="hbackground h3back">
+                <h3 class="shl padding">Новости СХЛ СПб</h3>
+
+            </div>
             <div class="column-container flex-2 btransparent width padding">
                 <div class="flex-2">
-                <img src="pics/zwRyd80RWfU.jpg" alt="img" class="n-img">
+                <img src="pics/zwRyd80RWfU.jpg" alt="img" class="n-img hiddenimg">
                 </div>
                 <div class="flex-1 padding">
-                    <h3 class="shl">Новости СХЛ СПб</h3>
+                    <h3 class="shl1">Новости СХЛ СПб</h3>
                     <p class="fonts">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Maecenas ullamcorper convallis quam, nec suscipit nunc eleifend nec.
@@ -82,10 +109,10 @@
 
             <div class="column-container flex-2 width padding">
                 <div class="flex-2">
-                    <img src="pics/zwRyd80RWfU.jpg" alt="img" class="n-img">
+                    <img src="pics/zwRyd80RWfU.jpg" alt="img" class="n-img hiddenimg">
                 </div>
                 <div class="flex-1 padding">
-                    <h3 class="shl">Title</h3>
+                    <h3 class="shl1">Title</h3>
                     <p class="fonts">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Maecenas ullamcorper convallis quam, nec suscipit nunc eleifend nec.
@@ -94,11 +121,11 @@
             </div>
 
             <div class="column-container flex-2 width padding">
-                <div class="gray flex-2">
-                    <img src="pics/zwRyd80RWfU.jpg" alt="img" class="n-img">
+                <div class=" flex-2">
+                    <img src="pics/zwRyd80RWfU.jpg" alt="img" class="n-img hiddenimg">
                 </div>
                 <div class="flex-1 padding">
-                    <h3 class="shl">Title</h3>
+                    <h3 class="shl1">Title</h3>
                     <p class="fonts">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Maecenas ullamcorper convallis quam, nec suscipit nunc eleifend nec.
@@ -107,11 +134,11 @@
             </div>
 
             <div class="column-container flex-2 width padding">
-                <div class="gray flex-2">
-                    <img src="pics/zwRyd80RWfU.jpg" alt="img" class="n-img">
+                <div class=" flex-2">
+                    <img src="pics/zwRyd80RWfU.jpg" alt="img" class="n-img hiddenimg">
                 </div>
                 <div class="flex-1 padding">
-                    <h3 class="shl">Title</h3>
+                    <h3 class="shl1">Title</h3>
                     <p class="fonts">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Maecenas ullamcorper convallis quam, nec suscipit nunc eleifend nec.
@@ -119,12 +146,12 @@
                 </div>
             </div>
 
-            <div class="column-container flex-2 width padding hidden">
-                <div class="gray flex-2">
-                    <img src="pics/zwRyd80RWfU.jpg" alt="img" class="n-img">
+            <div class="column-container flex-2 width padding">
+                <div class="flex-2">
+                    <img src="pics/zwRyd80RWfU.jpg" alt="img" class="n-img hiddenimg">
                 </div>
                 <div class="flex-1 padding">
-                    <h3 class="shl">Title</h3>
+                    <h3 class="shl1">Title</h3>
                     <p class="fonts">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Maecenas ullamcorper convallis quam, nec suscipit nunc eleifend nec.
@@ -132,12 +159,12 @@
                 </div>
             </div>
 
-            <div class="column-container flex-2 width padding hidden">
-                <div class="gray flex-2">
-                    <img src="pics/zwRyd80RWfU.jpg" class="n-img" alt="img" >
+            <div class="column-container flex-2 width padding">
+                <div class=" flex-2">
+                    <img src="pics/zwRyd80RWfU.jpg" class="n-img hiddenimg" alt="img" >
                 </div>
                 <div class="flex-1 padding">
-                    <h3 class="shl">Title</h3>
+                    <h3 class="shl1">Title</h3>
                     <p class="fonts">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Maecenas ullamcorper convallis quam, nec suscipit nunc eleifend nec.
@@ -149,30 +176,30 @@
 
 
 
-    <div class="column-container flex-1 padding whitesmoke hidden">
-        <h3 class="shl">Новости мирового хоккея</h3>
+    <div class="column-container flex-1 padding sidecolor hidden">
+        <h3 class="shl1">Новости мирового хоккея</h3>
         <div class=" flex-1">
-            <h3 class="shl">Название</h3>
+            <h3 class="shl1">Название</h3>
             <p class="fonts">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Maecenas ullamcorper convallis quam, nec suscipit nunc eleifend nec.
             </p>
         </div>
         <div class="flex-1">
-            <h3 class="shl">Title</h3>
+            <h3 class="shl1">Title</h3>
             <p class="fonts">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Maecenas ullamcorper convallis quam, nec suscipit nunc eleifend nec.
             </p>
         </div>
         <div class="flex-1">
-            <h3 class="shl">Title</h3>
+            <h3 class="shl1">Title</h3>
             <p class="fonts">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Maecenas ullamcorper convallis quam, nec suscipit nunc eleifend nec.
             </p>
         </div>
-        <div class="flex-1">
+        <div class="flex-11">
             <h3 class="shl">Title</h3>
             <p class="fonts">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -182,6 +209,12 @@
     </div>
 
     </div>
+
+    <!--<div class="emptyl">-->
+        <!--<div class="bottomp">-->
+            <!--<input type="email" >-->
+        <!--</div>-->
+    <!--</div>-->
 </div>
 
 
@@ -189,76 +222,3 @@
 </body>
 </html>
 
-
-<!--<div class="flex-2 border column-container ">
-    <div class="row-container margin">
-        <div class="flex-1 darkgray">img</div>
-        <div class="flex-1 gray padding">
-            <h3>Title</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Maecenas ullamcorper convallis quam, nec suscipit nunc eleifend nec.
-            </p>
-        </div>
-    </div>
-
-
-    <div class="row-container flex-1">
-        <div class="flex-1 column-container margin">
-            <div class="flex-2 darkgray ">img</div>
-            <div class="gray flex-1 padding">
-                <h3>Title</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Maecenas ullamcorper convallis quam, nec suscipit nunc eleifend nec.
-                </p>
-            </div>
-        </div>
-
-
-        <div class="flex-1 column-container margin">
-            <div class="flex-2 darkgray ">img</div>
-            <div class="gray flex-1 padding">
-                <h3>Title</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Maecenas ullamcorper convallis quam, nec suscipit nunc eleifend nec.
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-<div class="flex-1 border column-container">
-    <div class="height
-        border
-        column-container
-        margin padding
-        gray">
-        <div class="flex-1 darkgray">img</div>
-        <div class="flex-2">
-            <h3>Title</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Maecenas ullamcorper convallis quam, nec suscipit nunc eleifend nec.
-            </p>
-        </div>
-    </div>
-
-    <div class="gray padding border margin">
-        <h3>Title</h3>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Maecenas ullamcorper convallis quam, nec suscipit nunc eleifend nec.
-        </p>
-    </div>
-
-    <div class="gray padding border margin">
-        <h3>Title</h3>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Maecenas ullamcorper convallis quam, nec suscipit nunc eleifend nec.
-        </p>
-    </div>-->
